@@ -1,3 +1,8 @@
+// Esto sólo en los modulos nativos
+// que no tienen promesas nativas
+// const { promosify } = require('node:util');
+// const readFilePromise = promosify(fs.readFile);
+
 const fs = require('node:fs/promises');
 
 console.log('Leyendo el primer archivo...');
