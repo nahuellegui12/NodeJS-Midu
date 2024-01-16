@@ -3,7 +3,7 @@
 // const { promosify } = require('node:util');
 // const readFilePromise = promosify(fs.readFile);
 
-const {readFile} = require('node:fs/promises') ;
+const {readFile} = require('node:fs/promises');
 
 //IIFE - Inmediatly Invoked Function Expression
 (
